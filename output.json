@@ -1,33 +1,84 @@
 {
-  "blockSize": 1,
+  "height": 0,
   "header": {
     "version": 1,
     "previousBlockHash": "0",
     "merkleRoot": "0",
-    "timestamp": 16491013443590000,
+    "timestamp": 16498965079060000,
     "difficulty": 2,
-    "nonce": 0
+    "nonce": 3768
   },
   "transactions": [
-    "Alex sent James 10 Solanas",
-    "Bob sent David 20 Solanas"
+    "Sarah sent 10 BTC to James"
   ],
-  "noOfTransactions": 2,
-  "currentBlockHash": "b0fbc41935c368350f33adc93500c90e493f59ee1eb85e8f555058c8560c7596"
-}{
-  "blockSize": 1,
+  "noOfTransactions": 1,
+  "hash": "00365159dac239da4892a2cd3fddfb6d6ba89f77f3b868718f279b9e5abe171e"
+}
+{
+  "height": 1,
   "header": {
     "version": 1,
-    "previousBlockHash": "b0fbc41935c368350f33adc93500c90e493f59ee1eb85e8f555058c8560c7596",
+    "previousBlockHash": "00365159dac239da4892a2cd3fddfb6d6ba89f77f3b868718f279b9e5abe171e",
     "merkleRoot": "0",
-    "timestamp": 16491013444180000,
+    "timestamp": 16498965087150000,
     "difficulty": 2,
-    "nonce": 0
+    "nonce": 6947
+  },
+  "transactions": [],
+  "noOfTransactions": 0,
+  "hash": "001f2b1f9f81c6d1ed47343d7ee2bbf9fb67c54f7fe5ef82fca241f5ba27434a"
+}
+{
+  "height": 2,
+  "header": {
+    "version": 1,
+    "previousBlockHash": "001f2b1f9f81c6d1ed47343d7ee2bbf9fb67c54f7fe5ef82fca241f5ba27434a",
+    "merkleRoot": "0",
+    "timestamp": 16498965090270000,
+    "difficulty": 2,
+    "nonce": 13568
   },
   "transactions": [
-    "Ben sent Joe 10 Solanas",
-    "Sarah sent David 20 Solanas"
+    "sam to Cat 1 btc",
+    "sam to Cat 20 btc",
+    "sam to Cat 10 btc"
   ],
-  "noOfTransactions": 2,
-  "currentBlockHash": "8e18fb82f084595c52576d82d5602cff6ec4adfecfe198e8f78ae005d554276b"
+  "noOfTransactions": 3,
+  "hash": "00d9d76e698918966995ae1ee23a1e5e9a17ae17f24cfd47cf424de9c5bfcbb1"
+}
+{
+  "height": 3,
+  "header": {
+    "version": 1,
+    "previousBlockHash": "00d9d76e698918966995ae1ee23a1e5e9a17ae17f24cfd47cf424de9c5bfcbb1",
+    "merkleRoot": "0",
+    "timestamp": 16498965094650000,
+    "difficulty": 2,
+    "nonce": 17936
+  },
+  "transactions": [
+    "cat to sam 10 btc",
+    "cat to sam 1 btc",
+    "cat to sam 20 btc"
+  ],
+  "noOfTransactions": 3,
+  "hash": "0044b5d294b5d63ee48188dd72fafacfffb439f6b7c4842464ed1957b7df2287"
+}
+{
+  "height": 4,
+  "header": {
+    "version": 1,
+    "previousBlockHash": "0044b5d294b5d63ee48188dd72fafacfffb439f6b7c4842464ed1957b7df2287",
+    "merkleRoot": "0",
+    "timestamp": 16498965100390000,
+    "difficulty": 2,
+    "nonce": 9594
+  },
+  "transactions": [
+    "cat to sam 10 btc",
+    "cat to sam 1 btc",
+    "cat to sam 20 btc"
+  ],
+  "noOfTransactions": 3,
+  "hash": "00452b3fe8ed396938441bdd98cdb85dbe7998fb26bf2a712846a3d2d3a683fc"
 }
